@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="../CSS/Sign up.css">
+</head>
+<body>
+  <div class="container">
+    <form class="signup-form">
+
+      <h1>Sign Up</h1>
+
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="fname" required>
+
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lname" required>
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="accountType">Account Type</label>
+      <select id="accountType" name="accountType" required>
+        <option value="">Select...</option>
+        <option value="student">Student</option>
+        <option value="professional">Professional</option>
+        <option value="intern">Intern</option>
+        <option value="freelancer">Freelancer</option>
+        <option value="other">Other</option>
+     </select>
+
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required>
+
+      <label for="confirmPassword">Confirm Password</label>
+      <input type="password" id="confirmPassword" name="confirmPassword" required>
+
+      <label for="dob">Date of Birth</label>
+      <input type="date" id="dob" name="dob" required>
+
+      <label>Gender</label>
+      <div class="gender-options">
+        <label><input type="radio" name="gender" value="male" required> Male</label>
+        <label><input type="radio" name="gender" value="female" required> Female</label>
+      </div>
+      <br>
+      <div class="terms">
+        <label><input type="checkbox" required> I agree to Terms & Conditions and Privacy Policy</label>
+      </div>
+
+      <button type="submit">SIGN UP</button>
+    </form>
+  </div>
+</body>
+</html>
