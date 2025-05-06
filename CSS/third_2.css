@@ -1,0 +1,120 @@
+
+* {
+    box-sizing: border-box;
+  }
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+  }
+
+@font-face {
+    font-family: 'Open Sans' ;
+    src: url('../Font/Open_Sans/static/OpenSans-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+       
+    }
+
+
+
+h1{
+    font-size: 45px;
+    font-weight:600;
+    text-align: center;
+    margin-top: 61px; 
+}
+
+#subheading{
+ text-align: center; 
+ font-family: 'Open Sans';
+font-weight: 400;
+font-size: 14px;      
+line-height: 20px;      
+letter-spacing: 0.25px;
+color: #212B36;
+margin-top:-15px
+   
+}
+
+
+
+h5{
+    font-size: 24px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    letter-spacing: -1%;
+    margin-top: 41px;
+}
+
+p{
+font-family: 'Open Sans';
+font-weight: 400;
+font-size: 14px;      
+line-height: 20px;      
+letter-spacing: 0.25px;
+color: #212B36;
+}
+
+
+
+.service-1,
+.service-2, .service-3,
+.service-4, .service-5 {
+  width: 95%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+ /* for making  devices  responsive according to device's screen size */
+
+@media (max-width: 768px) {
+    h1 {
+      font-size: 32px;
+      margin-top: 30px;
+    }
+  
+    h5 {
+      font-size: 20px;
+      margin-top: 30px;
+    }
+  
+    #subheading {
+      font-size: 13px;
+      margin-top: -10px;
+    }
+  
+    p {
+      font-size: 13px;
+      line-height: 18px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 26px;
+    }
+  
+    h5 {
+      font-size: 18px;
+    }
+  
+    #subheading,
+    p {
+      font-size: 12px;
+    }
+  
+    body {
+      padding: 10px;
+    }
+  }
+  
+

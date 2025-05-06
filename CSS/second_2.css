@@ -1,0 +1,115 @@
+
+* {
+    box-sizing: border-box;
+  }
+
+body{
+    padding:0%;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    width: 100%;
+    color: #212B36;
+
+    align-items: flex-start;
+    padding: 20px; /* Added for spacing */
+    min-height: 100vh;
+    /* overflow: hidden; */
+
+}
+
+@font-face {
+    font-family: 'Open Sans' ;
+    src: url('../Font/Open_Sans/static/OpenSans-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+    
+    }
+
+
+  
+h1{
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 61px;
+}
+
+h5{
+    font-size: 24px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+}
+
+p{
+font-family: 'Open Sans';
+font-weight: 400;
+font-size: 14px;      
+line-height: 20px;      
+letter-spacing: 0.25px;
+color: #212B36;
+}
+
+
+.first{
+
+    margin-top: 46px;
+    margin-left: 48px;
+    max-width: 1000px;
+    width: 90%;
+   
+}
+
+.second , .third , .fourth, .five{
+
+    margin-left: 48px;
+    max-width: 1000px;
+    width: 90%;
+   
+}
+
+
+   /* for making  devices  responsive according to device's screen size */
+
+@media (max-width: 768px) {
+    h1 {
+      font-size: 32px;
+      margin-top: 20px;
+    }
+  
+    h5 {
+      font-size: 20px;
+    }
+  
+    p {
+      font-size: 13px;
+      line-height: 18px;
+    }
+  
+    .first, .second, .third, .fourth, .five {
+      width: 95%;
+      padding: 15px;
+    }
+  }
+
+  
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 26px;
+    }
+  
+    h5 {
+      font-size: 18px;
+    }
+  
+    p {
+      font-size: 12px;
+    }
+  
+    body {
+      padding: 10px;
+    }
+  }
+  
