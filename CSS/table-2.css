@@ -1,0 +1,96 @@
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+     
+}
+
+.table-container {
+    width: 100%;
+    padding: 10px;
+    margin-top: 64px;
+    margin-top: 64px;
+    margin-left: 71px;
+    margin-right: 71px;
+    
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed; 
+    word-wrap: break-word;
+   margin: 3px;
+}
+
+
+table ,tr{
+    border:1px solid #CCCCCC;
+    text-align: center;
+    padding: 8px;
+    word-wrap: break-word;
+    white-space: normal;
+
+}
+
+th{
+font-family: Open Sans;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.15px;
+
+
+}
+ td{
+   font-family: Open Sans;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 20px;
+   letter-spacing: 0.25px;
+
+ }
+ @font-face {
+    font-family: 'Open Sans' ;
+    src: url('../Font/Open_Sans/static/OpenSans-Regular.ttf') format('truetype');
+    font-style: normal;
+   
+    }
+
+
+     /* for making  devices  responsive according to device's screen size */
+
+
+  @media  (max-width: 768px) {
+
+        body{
+            display:flex;
+            justify-content: center;
+            align-items:center;
+             
+        }
+
+
+        th{
+            font-family: Open Sans;
+            font-weight: 400;
+            font-size: 9px;
+            line-height: 5px;
+            letter-spacing: 0.15px; 
+            padding: 3px;
+            /* width: 80px; */
+            
+            }
+
+            td{
+                font-family: Open Sans;
+                font-weight: 300;
+                font-size: 8px;
+                line-height: 16px;
+               
+              }
+    }
+  
+    
