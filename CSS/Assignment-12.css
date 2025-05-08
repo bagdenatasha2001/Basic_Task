@@ -1,0 +1,102 @@
+
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../Font/Open_Sans/static/OpenSans-Regular.ttf') format('truetype');
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans';
+    padding: 20px;
+}
+
+.main-container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+h5 {
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+li, p {
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    letter-spacing: 0.25px;
+    margin-bottom: 8px;
+}
+
+.container-1,
+.container-2,
+.container-3 {
+    padding: 16px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    width: 100%;
+}
+
+
+  ul.custom-list {
+    list-style: none; 
+    padding-left: 0;
+  }
+
+  ul.custom-list li::before {
+    content: "→";
+    color: black; 
+    font-weight: bolder;
+    margin-right: 18px;
+  }
+
+
+       /* for making  devices  responsive according to device's screen size */
+       
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h5 {
+        font-size: 1.1rem;
+    }
+
+    li, p {
+        font-size: 0.85rem;
+    }
+
+    .main-container {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 1.75rem;
+    }
+
+    h5 {
+        font-size: 1rem;
+    }
+
+    li, p {
+        font-size: 0.8rem;
+    }
+}
