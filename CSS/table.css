@@ -1,0 +1,163 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+     
+}
+
+.table-container {
+    width: 100%;
+    padding: 40px;
+    
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed; 
+    word-wrap: break-word;
+
+}
+
+
+table ,th,td{
+    border:1px solid #CCCCCC;
+    text-align: center;
+    padding: 8px;
+    word-wrap: break-word;
+    white-space: normal;
+
+}
+
+
+th{
+font-family: Open Sans;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.15px;
+
+}
+ td{
+   font-family: Open Sans;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 20px;
+   letter-spacing: 0.25px;
+
+ }
+ @font-face {
+    font-family: 'Open Sans' ;
+    src: url('../Font/Open_Sans/static/OpenSans-Regular.ttf') format('truetype');
+    font-style: normal;
+   
+    }
+
+
+    option{
+        border: none;
+    }
+
+
+    .ui { 
+        background-color:#E3F4E0; 
+        color:#50B83C;
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+
+    .figma{
+        background-color:#FCF1E4;
+        color:#F58500;
+        padding: 5px;
+        border-radius: 10px;
+
+    }
+
+    .Magneto{
+        background-color:#E2E2E2;
+        color:#313030;
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+
+    .Graphic{
+      
+        background-color:#DFF2FF;
+        color:#006FBB;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    .PDF{
+
+        background-color:#FCE1E1;
+        color:#E83535;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    .Bytes{
+        background-color:#FCE1E1;
+        color:#E83535;
+        padding: 5px;
+        border-radius: 10px;
+
+    }
+    
+    .ue{
+        background-color:#FCF7E0;
+        color:#EEC200;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    .Doc{
+
+        background-color:#006FBB26;
+        color:#006FBB;
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+    .Common{
+
+        background-color:#FCF1E4;
+        color:#F58500;
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+
+     /* for making  devices  responsive according to device's screen size */
+
+
+  @media  (max-width: 768px) {
+
+        body{
+            display:flex;
+            justify-content: center;
+            align-items:center;
+             
+        }
+
+
+        th{
+            font-family: Open Sans;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 10px;
+            letter-spacing: 0.15px;
+            
+            }
+
+            td{
+                font-family: Open Sans;
+                font-weight: 300;
+                font-size: 10px;
+                line-height: 16px;
+               
+              }
+    }
+  
+    
