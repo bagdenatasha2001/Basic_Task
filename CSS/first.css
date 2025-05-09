@@ -3,7 +3,7 @@
   
   @font-face {
     font-family: 'Open Sans';
-    src: url('../Font_Open_Sans/static/OpenSans-VariableFont_wdth,wght.ttf') format('truetype');
+    src: url('../Font/Open_Sans/static/OpenSans-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
   }
@@ -36,8 +36,7 @@
     justify-content: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    padding-left: 48px;
-    padding-right: 48px;
+   
     
   }
   
@@ -48,10 +47,14 @@
     margin-top: 199px;
     margin-bottom:198px;
     position: relative;
+    margin-left: 48px;
+    margin-right: 48px;
+   
 
   }
 
   .description{
+    font-family: 'Open Sans';
     width: 1270px;
     height: 120px;
     margin-top:24px ;
@@ -59,6 +62,7 @@
   
   
   h1 {
+    font-family: 'Open Sans';
     position: relative;
     font-size: 2.5rem;
     font-weight: 600;
