@@ -1,0 +1,30 @@
+.container{
+
+    width: 1366px;
+    height: 2512px;
+    padding-top: 72px;
+   
+    
+    }
+    
+    
+    
+    .row{
+        margin-bottom: 24px;
+      
+    }
+     
+          
+      .gallery-img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          margin-bottom: 24px;
+         
+        }
+        
+    #row-6 {
+    
+        padding-left: 6%;
+        width: 93%;
+    }
