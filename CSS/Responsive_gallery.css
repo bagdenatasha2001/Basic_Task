@@ -1,0 +1,30 @@
+ body {
+      padding: 24px;
+     }
+
+     @font-face {
+    font-family: 'Open Sans' ;
+    src: url('../Font/Open_Sans/static/OpenSans-Regular.ttf') format('truetype');
+    font-style: normal;
+   }
+
+    h1 {
+      
+      margin-bottom: 30px;
+      text-align: center;
+      font-family: Open Sans;
+      font-weight: 600;
+      font-size: 45px;
+      line-height: 52px;
+      letter-spacing: -3%;
+    }
+
+    .gallery-img {
+      width: 100%;
+      height: auto;
+    }
+
+    .gallery-container {
+    padding:24px;   
+    
+    }

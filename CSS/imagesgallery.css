@@ -1,0 +1,54 @@
+ body {
+      
+      margin: 0;
+      padding: 24px;
+     
+    
+    }
+     @font-face {
+    font-family: 'Open Sans' ;
+    src: url('../Font/Open_Sans/static/OpenSans-Regular.ttf') format('truetype');
+    font-style: normal;
+   
+    }
+
+    h1 {
+      text-align: center;
+      font-family: Open Sans;
+      font-weight: 600;
+      font-size: 45px;
+      line-height: 52px;
+      letter-spacing: -3%;
+
+    }
+
+    .gallery-container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 10px;
+      
+    }
+
+    .gallery-container img {
+      width: 100%;
+      height: auto;
+      /* display: block; */
+    }
+
+    /*  responsivness for Tablet */
+    @media (max-width: 992px) {
+      .gallery-container {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    /* responsivness for  Mobile */
+    @media (max-width: 600px) {
+      .gallery-container {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  
