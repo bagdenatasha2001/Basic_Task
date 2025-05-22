@@ -1,0 +1,436 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  
+  /* line-height: 1.6; */
+  background: #fff;
+  font-family: Inter;
+  
+}
+
+
+a {
+  text-decoration: none;
+
+}
+.brand{
+    margin-bottom:50px;
+}
+
+.logo{
+    filter: brightness(0) saturate(100%);
+}
+
+.site-header {
+  background: #fff;
+  border-bottom: 2px solid #2E3A50;
+  height: 80px;
+}
+
+.site-header .brand-text {
+  font-family: 'Marcellus', serif;
+  font-size: 1.5rem;
+  color:black;
+  font-weight: 700;
+  
+}
+.nav{
+  margin-left: 39px;
+}
+
+
+.nav-link {
+  color:black;
+  font-weight: 500;
+ padding-left: 40px;
+  font-family: Inter;
+
+}
+
+.nav-link:last-child {
+  margin-right: 0;
+}
+
+.nav-link:hover {
+  color: #0d6efd;
+}
+
+
+.hero-section {
+  background: url('../IMAGES/Background_20.svg') no-repeat center center/cover;
+  height: 90vh;
+}
+
+.hero-section h1 {
+
+font-family: Marcellus;
+font-weight: 400;
+font-size: 45px;
+line-height: 52px;
+letter-spacing: 2%;
+
+}
+
+
+.hero-section p{
+ font-family: Inter;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.15px;
+
+
+}
+
+
+
+
+.hero-section .btn {
+ width: 184px;
+height: 48px;
+top: 424px;
+left: 591px;
+font-family: Inter;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 1.6px;
+text-align: center;
+text-transform: uppercase;
+}
+
+.about-section h2 {
+  font-size: 2rem;
+   padding-left: 19px;
+
+}
+
+.about-section p {
+  max-width: 600px;
+  font-weight: 400;
+ font-family: Inter;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0.25px;
+ padding-left: 19px;
+
+}
+
+.stats-list {
+
+  list-style-position: inside;
+  padding-left:1rem;
+}
+
+.stats-list li {
+font-family: Inter;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0.25px;
+}
+
+.stats-list li::marker {
+  color: #B2BFC5;     
+  font-size: 1.5rem;    
+  width: 12px;
+height: 12px;
+
+
+}
+.collections-section h3 {
+font-family: Marcellus;
+font-weight: 400;
+font-size: 28px;
+line-height: 36px;
+letter-spacing: 3%;
+text-align: center;
+
+}
+.collections-section p{
+ font-family: Inter;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0.25px;
+text-align: center;
+margin-top: 17px;
+
+
+}
+
+.card {
+  border: none;
+  border-radius: 8px;
+  width: 392px;
+  height: 392px;
+
+
+}
+
+.card-img-top {
+  transition: transform 0.3s ease;
+}
+
+.card:hover .card-img-top {
+  transform: scale(1.05);
+}
+
+
+.collections-section {
+   background-color: #F7FAFC;
+}
+.section-title {
+  font-family: 'Marcellus', serif;
+  font-size: 1.75rem;
+  font-weight: 500;
+  color: #212B36;
+}
+
+
+.image-card {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform .3s ease;
+ 
+
+}
+.image-card img {
+  width: 100%;
+  display: block;
+  transition: transform .3s ease;
+}
+/* .image-card:hover img {
+  transform: scale(1.05);
+} */
+
+
+.card-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: .75rem 1rem;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-size: .9rem;
+  font-weight: 500;
+}
+
+/* @media (min-width: 992px) {
+  .collections-section .row.g-3 {
+    margin: 0;
+  }
+  .collections-section .row.g-3 > [class*="col"] {
+    padding: .5rem;
+  }
+ */
+
+
+/* 
+   Center the 4th collection card on large screens(Applies left margin to center it on a new row)
+*/
+
+@media (min-width: 992px) {
+  .collections-section .row > .col-lg-4:nth-child(4) {
+    margin-left: calc((100% - (2 * 33.3333%)) / 2);
+  }
+
+}
+
+.contact-section h3 {
+ 
+  
+  font-family: Marcellus;
+font-weight: 400;
+font-size: 28px;
+line-height: 36px;
+letter-spacing: 3%;
+text-align: center;
+
+}
+.contact-section p{  font-family: Inter;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0.25px;
+text-align: center;
+color:#212B36;
+margin-top: 17px;
+
+}
+.contact-section .row{
+    font-family: Inter;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 0.5px;
+margin-top: 43px;
+}
+
+textarea{
+   
+ width: 728px;
+height: 96;
+top: 24px;
+border-radius: 4px;
+border-width: 1px;
+margin-top: 8px;
+
+}
+form input
+ {
+  width: 352px;
+height: 48px;
+top: 24px;
+border-radius: 4px;
+border-width: 1px;
+margin-top: 8px;
+
+}
+
+form .btn {
+  
+  background-color: #2E3A50;
+  text-transform: uppercase;
+  margin-top: 32px;
+  width: 352px;
+height: 48px;
+border-radius: 4px;
+
+font-family: Inter;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 1.6px;
+text-align: center;
+vertical-align: middle;
+
+
+
+}
+
+form .btn:hover {
+  background-color: #1f2832;  
+  color: #fff;         
+}
+
+.brand{
+    margin-top: 54px;
+    margin-left: 71px;
+}
+
+.brand-text p{
+    font-family: Inter;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 0.4px;
+
+}
+.footer {
+  background: #212B36;
+  color: #fff;
+  height: 168px;
+}
+.footer p{
+  font-size: smaller;
+  margin-top: 5px;
+  
+}
+
+ .footer a {
+  color: #fff;
+  margin-right: 15px;
+  
+}
+
+.footer-icon{
+     margin-top: 60px;
+     margin-right:16px;
+     display: flex;
+}
+
+@media (max-width: 767px) {
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+
+ 
+
+   .nav .nav-link{
+   font-size: 14px;
+   margin-left: -60px;
+   margin-right:10px ;
+   }
+
+  .site-header .brand-text {
+  font-family: 'Marcellus';
+  font-size:20px;
+  color:black;
+  font-weight:700;
+  
+
+  } 
+  .collections-section .image-card img {
+    
+  width:350px;
+  margin-left: 10%;
+  display: block;
+  transition: transform .3s ease;
+}
+
+.footer {
+  background: #212B36;
+  color: #fff;
+  height:300px;
+}
+.footer-icon{
+     margin-top: 10px;
+     margin-right:20px;
+     margin-left: 65px;
+     display: flex;
+     width: 20px;
+}
+
+}
+
+
+@media (min-width: 767px) {
+    .site-header .brand-text {
+  font-family: 'Marcellus';
+  font-size:30px;
+  color:black;
+  font-weight:700;
+  margin-left: 10px
+
+  }
+  .logo{
+    margin-left: -70px;
+    gap:10px;
+  }
+}
+
+  @media (max-width :530px) {
+
+.logo{
+   
+    margin-left: -70px;
+  }
+
+
+  .nav-link {
+ 
+ margin-left: 20px;
+  font-family: Inter;
+
+}
+
+  }
