@@ -1,0 +1,225 @@
+ body {
+   background-color: #faf9f5; 
+  font-family:inter;
+  margin: 0%;
+  padding: 0%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+
+}
+
+
+#left-section{
+background-color:  #faf9f5;
+}
+
+#left-section h5{
+font-weight: 500;
+font-size: 28px;
+line-height: 36px;
+letter-spacing: -1%;
+
+
+}
+#left-section p{
+font-weight: 500;
+font-size: 22px;
+line-height: 28px;
+letter-spacing: 0%;
+
+}
+#left-section label{
+font-weight: 325;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0.25px;
+
+}
+ #left-section .fw-semibold{
+font-weight: 350;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0.1px;
+
+}
+ #left-section h3{ 
+font-weight: 350;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 0.5px;
+
+}
+
+#right-section{
+background-color:  #faf9f5;
+ height: 554px;
+ width: 424px;
+
+}
+
+#right-section .list-unstyled{
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0.25px;
+
+
+}
+
+
+.container small{
+    height: 40px;
+    margin-top: 10px;
+    margin-right:23px;
+font-weight: 350;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0.1px;
+text-align: right;
+
+}
+ .row {
+   margin-top: 46px;
+  
+  
+ }
+
+ .row .card{
+   border: none;
+  
+ }
+ 
+
+.container .logo{
+  width: 313.5px;
+height: 38px;
+top: 53px;
+left: 526px;
+
+  
+}
+pre{
+    margin-top: -50px;
+    margin-left: 290px;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+
+#footer img{
+ 
+   gap: 16px;
+   margin-right:10px;
+}
+.card {
+  background-color:transparent;
+  
+  border-radius: 8px;
+}
+
+.btn-loyalty {
+  background-color: #d9c9ab;
+  color: black;
+  font-weight: 600;
+  border: none;
+}
+
+.btn-loyalty:hover {
+  background-color: #cbb991;
+}
+
+
+
+@media (max-width: 768px) {
+  .input-group.w-50 {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .card p, .card li, .card span, .card small {
+    font-size: 0.9rem;
+  }
+}
+
+
+
+
+@media (max-width: 992px) {
+  #right-section {
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .logo {
+    width: 220px;
+    height: auto;
+  }
+
+  #footer {
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  #footer img {
+    margin-top: 10px;
+    margin-right: 5px;
+  }
+
+  .container .text-end {
+    text-align: center !important;
+    margin-bottom: 1rem;
+  }
+
+  .row {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  pre {
+    margin-left: 0;
+    text-align: right;
+    margin-top: 0;
+  }
+
+  .input-group {
+    flex-direction: column;
+  }
+
+  .input-group input,
+  .input-group .btn-loyalty {
+    width: 100% !important;
+    height: auto;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .card p,
+  .card li,
+  .card span,
+  .card small {
+    font-size: 0.85rem;
+  }
+
+  #left-section h5,
+  #left-section p {
+    font-size: 1rem;
+  }
+
+  #left-section h3 {
+    font-size: 0.85rem;
+  }
+
+  #right-section .list-unstyled {
+    font-size: 0.8rem;
+  }
+
+  #right-section strong {
+    font-size: 0.9rem;
+  }
+} 
+
