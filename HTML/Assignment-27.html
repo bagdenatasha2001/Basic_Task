@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Confirmation Popup</title>
+    <link rel="stylesheet" href="../CSS/Assignment-27.css">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="table-container">
+
+    <table>
+        <tr bgcolor="#F5F5F5">
+             <th> IMAGE</th>
+             <th> NAME</th>
+             <th> EMAIL</th>
+            <th> COUNTRY</th>
+             <th> STATUS</th>
+             <th> ACTION</th>
+        </tr>
+        <tr>
+            <td> <img src = "Table-7_img/img-1.svg"  class="person-img"></td>
+            <td>Guy Hawkins</td>
+            <td>guyhawkins@domain.com</td>
+            <td>Australia</td>
+            <td class="Processing">Processing</td>
+            <td> <img src = "../IMAGES/eye_25.svg"> &nbsp;&nbsp;&nbsp;<img src = "Table-7_img/pencil.png">&nbsp;&nbsp;&nbsp; <img src = "Table-7_img/trash.png"  onclick="openpopup()" > </td>
+         </tr>
+         <tr bgcolor="#F1F4FF">
+            <td> <img src = "Table-7_img/img-2.svg" class="person-img"></td>
+            <td>Floyd Miles</td>
+            <td>floydmiles@domain.com</td>
+            <td>Australia</td>
+            <td class="Processing">Processing</td>
+            <td><img src = "../IMAGES/eye_25.svg"> &nbsp;&nbsp;&nbsp;<img src = "Table-7_img/pencil.png">&nbsp;&nbsp;&nbsp; <img src = "Table-7_img/trash.png" onclick="openpopup()"> </td>
+        </tr>
+         <tr>
+            <td><img src = "Table-7_img/img-3.svg" class="person-img"></td>
+            <td>Bessie Cooper</td>
+            <td>bessiecooper@domain.com</td>
+            <td>Australia</td>
+            <td class="Active">Active</td>
+            <td> <img src = "../IMAGES/eye_25.svg"> &nbsp;&nbsp;&nbsp;<img src = "Table-7_img/pencil.png"> &nbsp;&nbsp;&nbsp; <img src = "Table-7_img/trash.png" onclick="openpopup()"> </td>
+        </tr>
+         <tr bgcolor="#FAFAFA">
+            <td><img src = "Table-7_img/img-4.svg" class="person-img"></td>
+            <td>Cody Fisher</td>
+            <td>codyfisher@domain.com</td>
+            <td>Australia</td>
+            <td class="Deactive">Deactive</td>
+            <td><img src = "../IMAGES/eye_25.svg"> &nbsp;&nbsp;&nbsp;<img src = "Table-7_img/pencil.png">&nbsp;&nbsp;&nbsp; <img src = "Table-7_img/trash.png" onclick="openpopup()"> </td>
+        </tr>
+         <tr>
+            <td><img src = "Table-7_img/img-5.svg" class="person-img"></td>
+            <td>Arlene McCoy</td>
+            <td>arlenemccoy@domain.com</td>
+            <td>Australia</td>
+            <td class="Active">Active</td>
+            <td><img src = "../IMAGES/eye_25.svg"> &nbsp;&nbsp;&nbsp;<img src = "Table-7_img/pencil.png"> &nbsp;&nbsp;&nbsp; <img src = "Table-7_img/trash.png" onclick="openpopup()"> </td>
+         </tr>
+         <tr bgcolor="#FAFAFA">
+            <td><img src = "Table-7_img/img-6.svg" class="person-img"></td>
+            <td>Robert Fox</td>
+            <td>robertfox@domain.com</td>
+            <td>Australia</td>
+            <td class="Active">Active</td>
+            <td><img src = "../IMAGES/eye_25.svg"> &nbsp;&nbsp;&nbsp;<img src = "Table-7_img/pencil.png">&nbsp;&nbsp;&nbsp; <img src = "Table-7_img/trash.png" onclick="openpopup()"> </td>
+         </tr>
+         <tr>
+            <td><img src = "Table-7_img/img-7.svg" class="person-img"></td>
+            <td>Jane Cooper</td>
+            <td>janecooper@domain.com</td>
+            <td>Australia</td>
+            <td class="Active">Active</td>
+            <td><img src = "../IMAGES/eye_25.svg"> &nbsp;&nbsp;&nbsp;<img src = "Table-7_img/pencil.png">&nbsp;&nbsp;&nbsp; <img src = "Table-7_img/trash.png" onclick="openpopup()"> </td>
+         </tr>
+         <tr bgcolor="#FAFAFA">
+            <td><img src = "Table-7_img/img-8.svg" class="person-img"></td>
+            <td>Savannah Nguyen</td>
+            <td>savannahn@domain.com</td>
+            <td>Australia</td>
+            <td class="Deactive">Deactive</td>
+            <td><img src = "../IMAGES/eye_25.svg"> &nbsp;&nbsp;&nbsp;<img src = "Table-7_img/pencil.png">&nbsp;&nbsp;&nbsp; <img src = "Table-7_img/trash.png" onclick="openpopup()"> </td>
+         </tr>
+         <tr>
+            <td><img src = "Table-7_img/img-9.svg" class="person-img"></td>
+            <td>Devon Lane</td>
+            <td>devonlane@domain.com</td>
+            <td>Australia</td>
+            <td class="Active">Active</td>
+            <td><img src = "../IMAGES/eye_25.svg"> &nbsp;&nbsp;&nbsp;<img src = "Table-7_img/pencil.png">&nbsp;&nbsp;&nbsp; <img src = "Table-7_img/trash.png" onclick="openpopup()"> </td>
+         </tr>
+         <tr bgcolor="#FAFAFA">
+            <td><img src = "Table-7_img/img-10.svg" class="person-img"></td>
+            <td>Dianne Russell</td>
+            <td>diannerussell@domain.com</td>
+            <td>Australia</td>
+            <td class="Active">Active</td>
+            <td><img src = "../IMAGES/eye_25.svg"> &nbsp;&nbsp;&nbsp;<img src = "Table-7_img/pencil.png"> &nbsp;&nbsp;&nbsp;<img src = "Table-7_img/trash.png" onclick="openpopup()"> </td>
+         </tr>            
+    
+    </table>
+ </div>
+
+
+
+ <!-- popup continer -->
+
+ <div class="popup-overlay"></div>
+
+ <div class="popup" id="popup">
+    
+    <h2>Remove Customer</h2>
+    <hr>
+    <p>Are you sure you want to remove the customer?</p>
+    <button type="button" onclick="closepopup()"> CANCEL</button>
+    <button type="button" onclick="closepopup()" id="button-2"> REMOVE</button>
+
+
+ </div>
+
+
+
+
+  
+
+
+
+
+<script> 
+
+   let popup = document.getElementById("popup");
+
+   function openpopup(){
+
+      popup.classList.add("open-popup");
+   }
+
+    function closepopup(){
+
+      popup.classList.remove("open-popup");
+   }
+
+
+   
+
+</script>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> 
+    
+</body>
+</html>
+
